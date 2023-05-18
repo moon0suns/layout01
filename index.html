@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graff - 실습</title>
+    <!-- 0.head 안에 셋팅 먼저 해놓기 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <!-- 1.전체 wrapper 싸는거부터 만들기 ; 3개로 나눔 -->
+    <div class="wrapper">
+        <!-- 1-1 헤더에 이름 지어야함 -->
+        <header class="header">
+            <div class="inner">
+                <h1>
+                    <a href="">
+                        <img src="./images/grafflogo.png" alt="Graff - 실습">
+                    </a>
+                </h1>
+                <!-- 3. 주된메뉴 만들기 -->
+                <nav class="gnb">
+                    <!-- 3-1. (html 특수문자) &copy; &nbsp; &amp;  -->
+                    <ul>
+                        <li><a href="">하이주얼리</a></li>
+                        <li><a href="">주얼리 컬렉션</a></li>
+                        <li><a href="">컬렉션 &amp; 브라이덜</a></li>
+                        <li><a href="">웨딩주얼리</a></li>
+                        <li><a href="">특별한 솔리테어</a></li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <i class="xi-search"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- 1-2 main 선택자X 위치로 고수함 -->
+        <!-- 7. 메인 슬라이드 만들기 베이스-->
+        <main>
+            <section class="main_visual">
+                <h2 class="blind">메인 슬라이드 IR</h2>
+                <!-- 13시각장애인분들 읽을 수 있는 문구 가림 blind -->
+                <!-- 10 버튼 만들기 -->
+                <div class="main_slide">
+
+                    <!-- 이미지나 기능되는거 쌀때 피규어 -->
+                    <figure class="itm01">
+                        <div class="slogan">
+                            <!-- 강조할것 스트롱 -->
+                            <strong>01. JEWELLERY COLLECTION EVENT</strong>
+                            <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</p>
+                            <!-- 버튼 -->
+                            <a href="">more</a>
+                        </div>
+                    </figure>
+                    <figure class="itm02">
+                        <div class="slogan">
+                            <!-- 강조할것 스트롱 -->
+                            <strong>02. JEWELLERY COLLECTION EVENT</strong>
+                            <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</p>
+                            <!-- 버튼 -->
+                            <a href="">more the more</a>
+                        </div>
+                    </figure>
+                    <figure class="itm03">
+                        <div class="slogan">
+                            <!-- 강조할것 스트롱 -->
+                            <strong>03. JEWELLERY COLLECTION EVENT</strong>
+                            <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</p>
+                            <!-- 버튼 -->
+                            <a href="">more</a>
+                        </div>
+                    </figure>
+
+                </div>
+                <ul class="dots">
+                    <li>
+                        <div class="btn">
+                            <i class="xi-bars"></i>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn">
+                            <i class="xi-heart"></i>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn">
+                            <i class="xi-cart"></i>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 12. 이전 다음으로 가기 -->
+                <ul class="arrows">
+                    <li class="left">
+                        <i class="xi-arrow-left"></i>
+                    </li>
+                    <li class="right">
+                        <i class="xi-arrow-right"></i>
+                    </li>
+
+                </ul>
+            </section>
+            <!-- 14 헤더아래 이미지 가로배치 베이스 -->
+            <section class="main_content">
+                <div class="tit inner">
+                    <h2>JEWELLERY COLLECTION EVENT</h2>
+                    <p>
+                        모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.
+                    </p>
+                </div>
+                <div class="content inner">
+                    <!-- 14-1 피규어들 가로배치할것들 -->
+                    <figure>
+                        <div class="box">
+                            <img src="./images/lesedilarona01.jpg" alt="">
+                        </div>
+                        <strong>제품이름01</strong>
+                        <a href="">구매하기</a>
+                    </figure>
+                    <figure>
+                        <div class="box">
+                            <img src="./images/lesedilarona02.jpg" alt="">
+                        </div>
+                        <strong>제품이름01</strong>
+                        <a href="">구매하기</a>
+                    </figure>
+                    <figure>
+                        <div class="box">
+                            <img src="./images/lesedilarona03.jpg" alt="">
+                        </div>
+                        <strong>제품이름01</strong>
+                        <a href="">구매하기</a>
+                    </figure>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <!-- 17. 간단하게 푸터만들기
+            hr은 문장간 문장 나눌때 많이 씀. -> border -->
+
+            <div class="top">
+                <div class="inner">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+            </div>
+            <!-- address 푸터만씀 ;권한을 가지고 있는 곳;copyright,addre 젤 마지막 -->
+            <address>
+                <div class="inner">
+                    &copy; lee.
+                </div>
+            </address>
+        </footer>
+    </div>
+</body>
+
+</html>
